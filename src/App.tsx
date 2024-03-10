@@ -1,8 +1,8 @@
-import GradientBg from '../GradientBg/GradientBg';
 import './App.css';
+import GradientBg from './GradientBg/GradientBg';
 
 function App() {
-  return <GradientBg />;
+  return <GradientBg/>
 }
 
 export default App;
