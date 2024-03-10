@@ -2,10 +2,10 @@ import { useEffect, useRef } from 'react';
 import { GlowParticle, Color } from './glowParticle.ts';
 
 const COLORS: Color[] = [
-  { r: 255, g: 65, b: 126 }, //blue,
-  { r: 255, g: 202, b: 212 }, //yellow
-  { r: 56, g: 103, b: 156 }, //purple
-  { r: 17, g: 60, b: 113 }, //skyblue
+  { r: 255, g: 65, b: 126 }, 
+  { r: 255, g: 202, b: 212 },
+  { r: 56, g: 103, b: 156 }, 
+  { r: 17, g: 60, b: 113 }, 
 ];
 
 function GradientBg() {
